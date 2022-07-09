@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.movieList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.movieItem {
+  padding: 20px;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.movieItem span {
+  display: block;
+  margin: auto;
+}
